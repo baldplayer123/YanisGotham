@@ -1,9 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
 /* Reset */
 html{
     font-size: 62.5%;
+    scroll-behavior: smooth;
+    background: #000 url(../asset/cover.png)no-repeat fixed center center / cover ;
 }
 body{
-    font: 1.6rem  'Mukta Vaani', sans-serif;
+    font: 1.6rem  'Open Sans', sans-serif;
     margin: 0;
 }
 h1, h2, h3, h4, p, ul, figure{
@@ -13,7 +16,7 @@ h1, h2, h3, h4, p, ul, figure{
     
 }
 h1, h2, h3, h4{
-    font-weight: normal; 
+    font-weight: "Comic New"; 
 }
 a{
     text-decoration: none;
@@ -32,26 +35,16 @@ img{
 /* reset fin */
 
 :root{
-    --bgc-c1:#d3d2d6;
-    --bgc-c2: #ffffff;
-    --bgc-c3: #3d3838;
-    ---bgc-c4: #222; 
+    --color-primary:#d3d2d6;
+    --color-secondary: #ffffff;
+    --color-complementary: #3d3838;
+    --color-header: #222; 
 }
 
-body{
-    background-image: url(../asset/FondBatman.jpg);
-    background-repeat: no-repeat;
-    background-size:cover;
+header,nav,main,footer{
+    max-width: 120rem;
+    margin: 0 auto;
+    background-color: rgba(255,255,255,.8);
 }
-header h1{
-background-color: var(--bgc-c3);
-line-height: 8rem;
-text-align: center;
 
-}   
-
-section{
-    background-color: var(--bgc-c1);  
-}
-       
 
