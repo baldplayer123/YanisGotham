@@ -1,0 +1,57 @@
+/* Reset */
+html{
+    font-size: 62.5%;
+}
+body{
+    font: 1.6rem  'Mukta Vaani', sans-serif;
+    margin: 0;
+}
+h1, h2, h3, h4, p, ul, figure{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    
+}
+h1, h2, h3, h4{
+    font-weight: normal; 
+}
+a{
+    text-decoration: none;
+    color: #222;
+}
+*{
+    box-sizing: border-box;
+}
+img{
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    vertical-align: middle;
+    object-fit: cover;
+}
+/* reset fin */
+
+:root{
+    --bgc-c1:#d3d2d6;
+    --bgc-c2: #ffffff;
+    --bgc-c3: #3d3838;
+    ---bgc-c4: #222; 
+}
+
+body{
+    background-image: url(../asset/FondBatman.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+header h1{
+background-color: var(--bgc-c3);
+line-height: 8rem;
+text-align: center;
+
+}   
+
+section{
+    background-color: var(--bgc-c1);  
+}
+       
+
