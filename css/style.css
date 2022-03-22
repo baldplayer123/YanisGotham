@@ -1,19 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
 /* Reset */
+
 html{
     font-size: 62.5%;
     scroll-behavior: smooth;
     background: #000 url(../asset/cover.png)no-repeat fixed center center / cover ;
 }
 body{
-    font: 1.6rem  'Open Sans', sans-serif;
+    font: 2rem  'Oswald', sans-serif;
     margin: 0;
 }
 h1, h2, h3, h4, p, ul, figure{
     margin: 0;
     padding: 0;
     list-style-type: none;
-    
+    text-align: center;
 }
 
 a{
@@ -29,13 +31,14 @@ img{
     height: 100%;
     vertical-align: middle;
     object-fit: cover;
+    padding: 2rem;
 }
 /* reset fin */
 
 :root{
     --color-primary:#d3d2d6;
     --color-secondary: #ffffff;
-    --color-complementary: #3d3838;
+    --color-complementary: #ffffff;
     --color-header: #222; 
 }
 
@@ -48,25 +51,35 @@ header,nav,main,footer{
     padding: 1.5rem;
 }
 
-
 h1,h2{
     text-align: center;
 }
 
-
-ol{
-    list-style-type:none;
-
+.hover:hover{
+    opacity: 60%;
+    text-decoration: underline;
 }
-.sommaire{
+
+nav h2{
+    margin-bottom: 3rem;
+}
+
+nav ol{
     display: flex;
-    padding: auto;
-    justify-content: center;
+    list-style-type:none;
+    justify-content: space-around;
 }
-.sommaire a{
 
-    display: block;
-    min-width: 20rem;
+nav ol li a{
+    background-color: #ffffff;
+    padding: 1rem;
+    border-radius: 1rem;
+    border: 0.1rem solid black;
+}
+
+nav ol li a:hover {
+    background-color: #d3d2d6;
+    color: #ffffff;
 }
 
 header{
@@ -78,4 +91,18 @@ nav{
 }
 footer p{
     text-align: center;
+    font-weight: bold;
+}
+
+section {
+    padding: 2rem;
+}
+section p {
+    padding: 1rem;
+}
+header h1{
+    font-size: 6rem;
+}
+.a1{
+    font-size: 2rem;
 }
