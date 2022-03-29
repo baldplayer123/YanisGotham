@@ -61,9 +61,7 @@ nav h2{
 }
 
 nav ol{
-    display: flex;
-    list-style-type:none;
-    justify-content: space-around;
+  
 }
 
 nav ol li a:hover {
