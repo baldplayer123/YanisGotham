@@ -51,10 +51,6 @@ header,nav,main,footer{
     padding: 1.5rem;
 }
 
-h1,h2{
-    text-align: center;
-}
-
 .hover:hover{
     opacity: 60%;
     text-decoration: underline;
@@ -68,10 +64,6 @@ nav ol{
     display: flex;
     list-style-type:none;
     justify-content: space-around;
-}
-
-nav ol li a{
-
 }
 
 nav ol li a:hover {
